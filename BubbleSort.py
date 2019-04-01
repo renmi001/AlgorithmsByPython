@@ -21,5 +21,5 @@ def modiBubbleSort(alist):
                 exchange = True
         passnum -= 1
     return alist
-
-print(bubbleSort(alist))
+alist = [54,26,93,17,77,31,44,55,20]
+print(modiBubbleSort(alist))
